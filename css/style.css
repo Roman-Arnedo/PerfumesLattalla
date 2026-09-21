@@ -9,3 +9,10 @@ h1{
     background-color: aquamarine;
 
 }
+
+/*HEADER NAV*/
+
+.logos-nav{
+  width: 2rem;
+  height: 2rem;
+}
