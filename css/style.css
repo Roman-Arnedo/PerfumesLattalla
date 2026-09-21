@@ -11,6 +11,26 @@ h1{
 }
 
 /*HEADER NAV*/
+nav{
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a{    
+    text-decoration: none;
+    color: black;
+}
 
 .logos-nav{
   width: 2rem;
