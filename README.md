@@ -1,6 +1,6 @@
 # Latalla - Tienda Online de Perfumes
 
-¡Bienvenido/a al repositorio de Latalla, una tienda online moderna, elegante y funcional desarrollada con HTML, CSS y JavaScript! Este proyecto está diseñado para ofrecer una experiencia de usuario fluida y sofisticada en la búsqueda y compra de fragancias exclusivas.
+¡Bienvenido/a al repositorio de Latalla, una tienda online de perfumes desarrollada con HTML, CSS y JavaScript!
 
 **Lista de tecnologias**
 
