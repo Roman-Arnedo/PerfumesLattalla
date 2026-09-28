@@ -54,13 +54,12 @@ nav{
     padding: 15px 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10rem;
+    justify-content: space-evenly;
 }
 
 .ul-nav{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     list-style: none;
     padding: 0;
     margin: 0;
