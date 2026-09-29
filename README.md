@@ -19,4 +19,4 @@
 1. Clickear enlace en "about"
 2. Clonar el repositorio y ejecutar archivo index.html
 
-[Repositorio]"(https://github.com/Roman-Arnedo/PerfumesLattalla)
+[Repositorio](https://github.com/Roman-Arnedo/PerfumesLattalla)
