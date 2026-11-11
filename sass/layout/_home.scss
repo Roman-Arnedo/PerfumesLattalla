@@ -2,7 +2,7 @@
 @use "../utilities/mixin" as m;
 
 .portada {
-    background-image: url(../assets/portada.png);
+    background-image: url("../assets/portada.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
