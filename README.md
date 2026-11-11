@@ -20,3 +20,5 @@
 2. Clonar el repositorio y ejecutar archivo index.html
 
 [Repositorio](https://github.com/Roman-Arnedo/PerfumesLattalla)
+
+Github Pages: https://roman-arnedo.github.io/PerfumesLattalla/
