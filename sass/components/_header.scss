@@ -1,0 +1,14 @@
+@use "../utilities/variables" as v;
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: v.$bg-ppal;
+    border-bottom: 0.1rem solid v.$texts;
+    .logos-nav{
+        width: 2rem;
+        height: 2rem;
+    }
+
+}

@@ -1,4 +1,4 @@
-node_modules
+/node_modules
 package-lock.json
 package.json
-assets/videos/introVid1_1.mp4
+css/style.css.map

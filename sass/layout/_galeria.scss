@@ -1,0 +1,45 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixin" as m;
+
+
+.marmol{
+    background-image: url("../../assets/fondomarmol.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .video-container {
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 1px solid rgba(212, 175, 110, 0.4);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+
+
+    video {
+        object-fit: cover;
+    }
+}
+
+}
+.instagram-container {
+    background-image: url(../../assets/bannerGaleria.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+
+    @include m.mobile {
+        padding: 3rem;
+    }
+
+    .card {
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(212, 175, 110, 0.4);
+        text-align: center;
+    }
+}

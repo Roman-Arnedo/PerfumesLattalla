@@ -1,0 +1,29 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixin" as m;
+@use "../utilities/extend";
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+
+    background-image: url("../../assets/fondomarmol.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .row {
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .card {
+        width: 100%;
+
+        .card-img-top {
+            height: 250px;
+            object-fit: contain;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixin" as m;
+@use "../utilities/extend";
+
+
+
+.faq-container {
+    padding: 4rem;
+    background-image: url("../../assets/fondomarmol.png");
+    background-size: cover;
+    background-position: center;
+
+    .faq-title {
+        text-align: center;
+        margin-bottom: 3rem;
+
+        h1 {
+            font-weight: bold;
+            color: #263b59;
+
+            span {
+                color: #111;
+            }
+        }
+    }
+
+    .accordion {
+        max-width: 850px;
+        margin: auto;
+
+        .accordion-item {
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #d5d9df;
+        }
+
+        .accordion-button {
+            font-weight: bold;
+            color: #263b59;
+
+        }
+
+        .accordion-body {
+            background-color: white;
+            line-height: 1.7;
+        }
+    }
+
+    .faq-contact {
+        text-align: center;
+        margin-top: 3rem;
+
+        h3 {
+            font-weight: bold;
+        }
+
+        .btn {
+            background-color: #263b59;
+            border: none;
+            padding: 0.7rem 2rem;
+        }
+    }
+}
+
+@include m.mobile {
+    .faq-container {
+        padding: 3rem 1.2rem;
+    }
+}
+
+@include m.tablet{
+    .faq-container{
+        height: 100%;
+        padding-bottom: 12rem;
+        .faq-contact{
+            padding-top: 6rem;
+        }
+    }
+
+}
